@@ -8,3 +8,8 @@ window.addEventListener("DOMContentLoaded", () => {
     alert("💣");
   });
 });
+
+setInterval(function(){
+    let newTitle = "One new message";
+    document.title = newTitle;
+}, 3000);
